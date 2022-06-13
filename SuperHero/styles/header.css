@@ -139,7 +139,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
-        height: 52vh;
+        height: 70vh;
         position: relative;
     }
 
@@ -162,7 +162,7 @@
         height: 9rem;
         position: absolute;
         margin-left: -30px;
-        margin-bottom: -5px;
+        margin-bottom: 3rem;
     }
 
     .quem-somos {
