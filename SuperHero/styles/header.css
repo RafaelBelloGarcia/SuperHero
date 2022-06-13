@@ -138,7 +138,7 @@
         background-image: url("../imagens_atualizadas/spidermanheader_mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 20px left;
+        background-position: left;
         height: 70vh;
         position: relative;
     }
