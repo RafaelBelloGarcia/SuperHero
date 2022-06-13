@@ -139,7 +139,11 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
+<<<<<<< HEAD
         height: 80vh;
+=======
+        height: 50vh;
+>>>>>>> f804a99e97718cf403d864aa42d8183e9ae552ec
         position: relative;
     }
 
