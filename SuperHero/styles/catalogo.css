@@ -83,7 +83,6 @@
 .produtos-linha1 p {
     text-align: left;
     text-align: justify;
-
 }
 
 .produtos-linha1 p strong {
@@ -98,7 +97,7 @@
 }
 
 .button {
-    background-color: #fe7467;
+    background-image: linear-gradient(#fe7467, #fc3836);
     border: none;
     padding: 10px;
     border-radius: 20px;
