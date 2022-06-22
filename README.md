@@ -1,2 +1,2 @@
-Este foi o meu primeiro projeto de programação em HTML e CSS.
+Primeiros passos em HTML e CSS, aberto para visualização
 
