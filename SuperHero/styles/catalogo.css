@@ -74,6 +74,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .produtos-linha1 div {
@@ -94,6 +95,7 @@
     height: 200px;
     width: 200px;
     align-items: center;
+    justify-content: center;
 }
 
 .button {
@@ -115,22 +117,26 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 65vh;
+        height: 55vh;
         position: relative;
+    }
+
+    .logo-home {
+        width: 7rem;
     }
 
     .navbar {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        gap: 1rem;
     }
 
     .list {
         display: inline-flex;
         align-items: center;
-        gap: 60px;
-        margin-top: -10%;
+        gap: 30px;
+        margin-top: -5%;
     }
 
     .title-header {
@@ -141,7 +147,6 @@
         margin: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
