@@ -133,13 +133,13 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 768px) {
     .header {
         background-image: url("../imagens_atualizadas/spidermanheader_mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left;
-        height: 70vh;
+        height: 60vh;
         position: relative;
     }
 
