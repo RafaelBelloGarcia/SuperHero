@@ -1,48 +1,5 @@
 .header {
     background-image: url("../imagens_atualizadas/spidermanheader.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
-
-.logo-home {
-    width: 10rem;
-}
-
-.navbar {
-    display: flex;
-    padding: 20px;
-    gap: 3rem;
-}
-
-.title-header {
-    width: auto;
-    height: 18rem;
-    position: absolute;
-    left: 3rem;
-    bottom: 5rem;
-}
-
-.list {
-    display: inline-flex;
-    padding: 1rem;
-    align-items: center;
-    gap: 70px;
-    padding-bottom: 20px;
-}
-
-.list a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.list a:hover {
-    text-decoration: none;
-    border-bottom: 3px solid #fe7467;
 }
 
 .quem-somos {

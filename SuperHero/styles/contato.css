@@ -1,49 +1,5 @@
 .header {
     background-image: url("../imagens_atualizadas/contatoheader.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
-.logo-home {
-    width: 10rem;
-}
-
-.navbar {
-    display: flex;
-    padding: 20px;
-    gap: 2rem;
-}
-
-.title-header {
-    width: auto;
-    height: 18rem;
-    position: absolute;
-    left: 8rem;
-    bottom: 2rem;
-}
-
-.list {
-    display: inline-flex;
-    padding: 1rem;
-    align-items: center;
-    gap: 70px;
-    padding-bottom: 20px;
-}
-
-.list a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.list a:hover {
-    text-decoration: none;
-    border-bottom: 3px solid #fe7467;
 }
 
 .contato {
@@ -58,20 +14,30 @@
     text-align: center;
     font-weight: bold;
     color: black;
-    text-decoration: underline 3px solid #fe7467;
+    text-decoration: underline 4px solid #fe7467;
     text-underline-position: under;
-    text-decoration-skip: 20px;
+    text-decoration-skip: 1.25rem;
 }
 
 .contato h2 {
-    right: 20px;
+    right: 1.25rem;
     text-align: center;
     align-items: center;
-    margin: 20px 0 20px 0vw;
+    margin: 1.25rem 0 1.25rem 0vw;
 }
 
 .contato p {
     font-size: 1rem;
+}
+
+.container p {
+    padding: 1.25rem;
+}
+
+.container p input {
+    padding: 1.4375rem;
+    border-radius: 0.625rem;
+    border-color: rgba(128, 128, 128, 0.219);
 }
 
 .formulario {
@@ -80,37 +46,27 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
-    gap: 10px;
-}
-
-.container p {
-    padding: 20px;
-}
-
-.container p input {
-    padding: 23px;
-    border-radius: 10px;
-    border-color: rgba(128, 128, 128, 0.219);
+    padding: 1.25rem;
+    gap: 0.625rem;
 }
 
 .formulario textarea {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    padding: 1.25rem;
     resize: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border-color: rgba(128, 128, 128, 0.219);
 }
 
 .button {
     background-image: linear-gradient(#fe7467, #fc3836);
     border: none;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
     box-sizing: content-box;
-    width: 750px;
-    margin-left: 20px;
+    width: 46.875rem;
+    margin-left: 1.25rem;
 }
 
 .button a {
@@ -122,11 +78,7 @@
 @media screen and (max-width: 768px) {
     .header {
         background-image: url("../imagens_atualizadas/contatoheader_mobile.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
         height: 55vh;
-        position: relative;
     }
 
     .navbar {
@@ -143,7 +95,7 @@
     .list {
         display: inline-flex;
         align-items: center;
-        gap: 30px;
+        gap: 1.875rem;
         margin-top: -5%;
     }
 
@@ -165,14 +117,14 @@
     }
 
     .container p input {
-        max-width: 325px;
-        border-radius: 10px;
-        padding: 20px;
+        max-width: 20.3125rem;
+        border-radius: 0.625rem;
+        padding: 1.25rem;
         border-color: rgba(128, 128, 128, 0.219);
     }
 
     .formulario textarea {
-        border-radius: 10px;
+        border-radius: 0.625rem;
         box-sizing: border-box;
         border-color: rgba(128, 128, 128, 0.219);
     }
@@ -180,11 +132,11 @@
     .button {
         background-color: #fe7467;
         border: none;
-        padding: 10px;
-        border-radius: 20px;
-        box-sizing: content-box;
-        max-width: 38vh;
-        margin-left: 2px;
+        padding: 0.625rem;
+        border-radius: 1.25rem;
+        box-sizing: border-box;
+        max-width: 41vh;
+        margin-left: 0.125rem;
     }
 
 }

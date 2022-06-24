@@ -1,48 +1,5 @@
 .header {
     background-image: url("../imagens_atualizadas/captainmarvelheader.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
-
-.logo-home {
-    width: 10rem;
-}
-
-.navbar {
-    display: flex;
-    padding: 20px;
-    gap: 3rem;
-}
-
-.title-header {
-    width: auto;
-    height: 18rem;
-    position: absolute;
-    left: 3rem;
-    bottom: 5rem;
-}
-
-.list {
-    display: inline-flex;
-    padding: 1rem;
-    align-items: center;
-    gap: 70px;
-    padding-bottom: 20px;
-}
-
-.list a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.list a:hover {
-    text-decoration: none;
-    border-bottom: 3px solid #fe7467;
 }
 
 .catalogo {
@@ -86,8 +43,8 @@
 }
 
 .produtos-linha1 img {
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
     align-items: center;
     justify-content: center;
 }
@@ -95,9 +52,9 @@
 .button {
     background-image: linear-gradient(#fe7467, #fc3836);
     border: none;
-    padding: 10px;
-    border-radius: 20px;
-    margin-top: 15px;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    margin-top: 0.9375rem;
     font-size: 1.2rem;
     color: white;
     font-weight: bold;
@@ -129,7 +86,7 @@
     .list {
         display: inline-flex;
         align-items: center;
-        gap: 30px;
+        gap: 1.875rem;
         margin-top: -5%;
     }
 
