@@ -74,6 +74,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
     .header {
         background-image: url("../imagens_atualizadas/spidermanheader_mobile.jpg");
         height: 55vh;
@@ -120,14 +121,14 @@
         padding: 1rem;
     }
 
-    .bonecos span {
+    .layout span {
         text-align: center;
         font-weight: bold;
         color: black;
         text-decoration: underline 4px solid #fe7467;
     }
 
-    .bonecos h2 {
+    .layout h2 {
         color: black;
         text-align: center;
         align-items: center;
@@ -141,17 +142,17 @@
         text-align: center;
     }
 
-    .bonecos {
-        background-image: none;
-        background-repeat: no-repeat;
-        background-size: 60%;
+    .layout {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 60%;
         margin-top: 2.5rem;
     }
 
-    .bonecos img {
+    .layout img {
         display: flex;
         align-items: center;
         padding: 10%;
