@@ -76,6 +76,7 @@
 }
 
 @media screen and (max-width: 768px) {
+    
     .header {
         background-image: url("../imagens_atualizadas/contatoheader_mobile.jpg");
         height: 55vh;

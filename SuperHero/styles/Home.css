@@ -15,17 +15,17 @@
     text-align: center;
     font-weight: bold;
     color: white;
-    text-decoration: underline 3px solid white;
+    text-decoration: underline 4px solid white;
     text-underline-position: under;
-    text-decoration-skip: 20px;
+    text-decoration-skip: 1.25rem;
 }
 
 .quem-somos h2 {
-    right: 20px;
+    right: 1.25rem;
     color: white;
     text-align: center;
     align-items: center;
-    margin: 20px 0 20px 0vw;
+    margin: 1.25rem 0 1.25rem 0vw;
 }
 
 .quem-somos p {
@@ -35,7 +35,6 @@
     padding-bottom: 5%;
     padding-top: 5%;
     margin-right: 5%;
-
 }
 
 .bonecos {
@@ -53,16 +52,16 @@
     text-align: center;
     font-weight: bold;
     color: black;
-    text-decoration: underline 3px solid #fe7467;
+    text-decoration: underline 4px solid #fe7467;
     text-underline-position: under;
-    text-decoration-skip: 20px;
+    text-decoration-skip: 1.25rem;
 }
 
 .bonecos h2 {
     color: black;
     text-align: center;
     align-items: center;
-    margin: 20px 0 20px 0vw;
+    margin: 1.25rem 0 1.25rem 0vw;
 }
 
 .lorem {
@@ -70,16 +69,16 @@
     font-size: 1.5rem;
     color: black;
     padding-left: 57%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     text-justify: auto;
 }
 
 .button {
     background-image: linear-gradient(#fe7467, #fc3836);
     border: none;
-    padding: 10px;
-    border-radius: 20px;
-    margin-top: 30px;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    margin-top: 1.875rem;
     width: auto;
     margin-left: 57%;
 }
@@ -93,11 +92,7 @@
 @media screen and (max-width: 768px) {
     .header {
         background-image: url("../imagens_atualizadas/spidermanheader_mobile.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: right;
         height: 55vh;
-        position: relative;
     }
 
     .navbar {
@@ -114,7 +109,7 @@
     .list {
         display: inline-flex;
         align-items: center;
-        gap: 30px;
+        gap: 1.875rem;
         margin-top: -5%;
     }
 
@@ -122,8 +117,8 @@
         width: 10rem;
         height: 10rem;
         position: absolute;
-        margin-left: -40px;
-        margin-bottom: -4rem;
+        margin-left: -2.5rem;
+        margin-bottom: -3rem;
     }
 
     .quem-somos {
@@ -145,14 +140,14 @@
         text-align: center;
         font-weight: bold;
         color: black;
-        text-decoration: underline 3px solid #fe7467;
+        text-decoration: underline 4px solid #fe7467;
     }
 
     .bonecos h2 {
         color: black;
         text-align: center;
         align-items: center;
-        margin: 20px 0 20px 0vw;
+        margin: 1.25rem 0 1.25rem 0vw;
     }
 
     .lorem {
@@ -169,7 +164,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
 
     .bonecos img {
