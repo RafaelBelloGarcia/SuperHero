@@ -1,0 +1,12 @@
+.button {
+    background-image: linear-gradient(#fe7467, #fc3836);
+    border: none;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+}
+
+.button a {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}

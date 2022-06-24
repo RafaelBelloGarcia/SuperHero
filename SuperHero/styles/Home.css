@@ -58,19 +58,9 @@
 }
 
 .button {
-    background-image: linear-gradient(#fe7467, #fc3836);
-    border: none;
-    padding: 0.625rem;
-    border-radius: 1.25rem;
     margin-top: 1.875rem;
     width: auto;
     margin-left: 57%;
-}
-
-.button a {
-    font-size: 1.5rem;
-    color: white;
-    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
