@@ -1,0 +1,15 @@
+.layout span {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline 4px solid #fe7467;
+    text-underline-position: under;
+    text-decoration-skip: 1.25rem;
+}
+
+.layout h2 {
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin: 1.25rem 0 1.25rem 0;
+}

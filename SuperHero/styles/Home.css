@@ -37,31 +37,15 @@
     margin-right: 5%;
 }
 
-.bonecos {
+.layout {
     background-image: url("../imagens_atualizadas/bonecos.png");
     background-repeat: no-repeat;
     background-size: 60%;
     height: 80vh;
 }
 
-.bonecos img {
+.layout img {
     display: none;
-}
-
-.bonecos span {
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    text-decoration: underline 4px solid #fe7467;
-    text-underline-position: under;
-    text-decoration-skip: 1.25rem;
-}
-
-.bonecos h2 {
-    color: black;
-    text-align: center;
-    align-items: center;
-    margin: 1.25rem 0 1.25rem 0vw;
 }
 
 .lorem {

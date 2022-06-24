@@ -2,28 +2,12 @@
     background-image: url("../imagens_atualizadas/captainmarvelheader.jpg");
 }
 
-.catalogo {
+.layout {
     color: black;
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
     padding: 3.125rem;
-}
-
-.catalogo span {
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    text-decoration: underline 4px solid #fe7467;
-    text-underline-position: under;
-    text-decoration-skip: 1.25rem;
-}
-
-.catalogo h2 {
-    color: black;
-    text-align: center;
-    align-items: center;
-    margin: 1.25rem 0 1.25rem 0;
 }
 
 .produtos-linha1 {

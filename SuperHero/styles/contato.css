@@ -2,7 +2,7 @@
     background-image: url("../imagens_atualizadas/contatoheader.jpg");
 }
 
-.contato {
+.layout {
     text-align: center;
     color: black;
     font-size: 1.3rem;
@@ -10,23 +10,7 @@
     height: 100vh;
 }
 
-.contato span {
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    text-decoration: underline 4px solid #fe7467;
-    text-underline-position: under;
-    text-decoration-skip: 1.25rem;
-}
-
-.contato h2 {
-    right: 1.25rem;
-    text-align: center;
-    align-items: center;
-    margin: 1.25rem 0 1.25rem 0vw;
-}
-
-.contato p {
+.layout p {
     font-size: 1rem;
 }
 
@@ -66,7 +50,6 @@
     border-radius: 1.25rem;
     box-sizing: content-box;
     width: 46.875rem;
-    margin-left: 1.25rem;
 }
 
 .button a {
