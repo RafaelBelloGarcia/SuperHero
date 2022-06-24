@@ -46,7 +46,7 @@
 .button {
     box-sizing: content-box;
     width: 46.875rem;
-    margin-left: 0.9375rem;
+    margin-left: 0.938rem;
 }
 
 @media screen and (max-width: 768px) {
