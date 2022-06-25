@@ -33,13 +33,11 @@
 }
 
 .list a {
-    text-decoration: none;
     color: white;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .list a:hover {
-    text-decoration: none;
     border-bottom: 3px solid #fe7467;
 }
