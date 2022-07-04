@@ -44,8 +44,8 @@
 }
 
 .button {
-    box-sizing: content-box;
-    width: 46.875rem;
+    box-sizing:border-box;
+    width: 52.8rem;
     margin-left: 0.938rem;
 }
 
