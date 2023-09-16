@@ -1,12 +1,13 @@
 .header {
     background-image: url("../imagens_atualizadas/spidermanheader.jpg");
+    height: 100vh;
 }
 
 .quem-somos {
     background-image: url("../imagens_atualizadas/thor_header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }

@@ -1,87 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Hero - Contato</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Hero-Contato</title>
+    <!-- Favicon and Apple Touch Icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./imagens_atualizadas/Icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./imagens_atualizadas/Icons/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./imagens_atualizadas/Icons/apple-touch-icon.png"
+    />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./imagens_atualizadas/Icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./imagens_atualizadas/Icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./imagens_atualizadas/Icons/favicon-32x32.png">
-    <link rel="manifest" href="./imagens_atualizadas/Icons/site.webmanifest">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="./imagens_atualizadas/Icons/site.webmanifest" />
 
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/header-navigation.css">
-    <link rel="stylesheet" href="./styles/layout.css">
-    <link rel="stylesheet" href="./styles/button.css">
-    <link rel="stylesheet" href="./styles/contato.css">
-</head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/header-navigation.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
+    <link rel="stylesheet" href="./styles/contato.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
     <header class="header">
-        <nav class="navbar">
-            <a href="./Home.html"><img class="logo-home" src="./imagens_atualizadas/logo.png" alt="Logo Super Hero">
-            </a>
-            <ul class="list">
-                <li>
-                    <a href="./Home.html">Home</a>
-                </li>
-                <li>
-                    <a href="./Catalogo produtos.html">Catálogo</a>
-                </li>
-                <li>
-                    <a href="./Contato.html">Contato</a>
-                </li>
-            </ul>
-            <img class="title-header" src="./imagens_atualizadas/contatotitle.png" alt="Fale Conosco">
-        </nav>
+      <nav class="navbar">
+        <a href="./Home.html"
+          ><img
+            class="logo-home"
+            src="./imagens_atualizadas/logo.png"
+            alt="Logo Super Hero"
+        /></a>
+        <ul class="list">
+          <li><a href="./Home.html">Home</a></li>
+          <li><a href="./Catalogo_produtos.html">Catálogo</a></li>
+          <li><a href="./Contato.html">Contato</a></li>
+        </ul>
+        <img
+          class="title-header"
+          src="./imagens_atualizadas/contatotitle.png"
+          alt="Fale Conosco"
+        />
+      </nav>
     </header>
 
+    <!-- Main Content -->
     <main class="layout">
+      <h2>Entre em Contato</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        voluptate vitae perspiciatis iste numquam sapiente labore facere
+        laboriosam, eius qui eveniet blanditiis maiores, magni aliquid
+        voluptatem neque tempora? Et, reiciendis?
+      </p>
 
-        <h2>ENTR<span>E EM CON</span>TATO</h2>
+      <section>
+        <form>
+          <div class="formulario">
+            <div class="container">
+              <p>
+                <input type="text" name="Nome" placeholder="Nome" size="50" />
+              </p>
+              <p>
+                <input
+                  type="email"
+                  name="E-mail"
+                  placeholder="E-mail"
+                  size="50"
+                />
+              </p>
+              <p>
+                <input
+                  type="tel"
+                  name="Telefone"
+                  placeholder="Telefone"
+                  size="50"
+                />
+              </p>
+            </div>
+            <textarea
+              name="Como podemos ajudá-lo?"
+              placeholder="Como podemos ajudá-lo?"
+              cols="46"
+              rows="15"
+            ></textarea>
+          </div>
 
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium voluptate
-            vitae perspiciatis
-            iste numquam sapiente labore facere laboriosam, eius qui eveniet blanditiis maiores, magni aliquid
-            voluptatem neque tempora? Et, reiciendis?</h3>
-        </p>
-
-        <section>
-
-            <form>
-
-                <div class="formulario">
-
-                    <div class="container">
-                        <p><input type="text" name="Nome" placeholder="NOME" size="50"></p>
-
-                        <p><input type="email" name="E-mail" placeholder="EMAIL" size="50"></p>
-
-                        <p><input type="tel" neme="Telefone" placeholder="TELEFONE" size="50"></p>
-                    </div>
-
-                    <textarea name="Como podemos ajudá-lo?" placeholder="COMO PODEMOS AJUDÁ-LO" cols="46"
-                        rows="15"></textarea>
-
-
-                </div>
-
-                <button class="button" type="submit">
-                    <a href="mailto:#######@#########.com.br" title="#######@#########.com.br">Enviar</a>
-                </button>
-
-            </form>
-
-        </section>
-
+          <button class="button" type="submit">
+            <a href="mailto:seuemail@dominio.com" title="Enviar Email"
+              >Enviar</a
+            >
+          </button>
+        </form>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
