@@ -66,7 +66,7 @@ h2 + div {
 @media screen and (max-width: 768px) {
   .header {
     background-image: url("../imagens_atualizadas/spidermanheader_mobile.jpg");
-    height: 55vh;
+    height: 80vh;
   }
 
   .navbar {
@@ -91,8 +91,6 @@ h2 + div {
     width: 10rem;
     height: 10rem;
     position: absolute;
-    margin-left: -2.5rem;
-    margin-bottom: -3rem;
   }
 
   .quem-somos {
@@ -103,45 +101,45 @@ h2 + div {
   }
 
   .quem-somos p {
-    text-align: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: white;
     margin: 0;
-    padding: 1rem;
-  }
-
-  .layout span {
-    text-align: center;
-    font-weight: bold;
-    color: black;
-  }
-
-  .lorem {
-    padding-left: 0%;
-    text-align: center;
-    font-size: 1.4rem;
+    padding: 2rem;
   }
 
   .layout {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-image: none;
     background-repeat: no-repeat;
-    background-size: 60%;
-    margin-top: 2.5rem;
+    height: auto;
   }
 
   .layout img {
+    width: 100%;
     display: flex;
     align-items: center;
-    padding: 10%;
+  }
+
+  h2 + div {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 0;
+
+  }
+
+  .container_button {
+    display: flex;
+    justify-content: center;
   }
 
   .button {
     width: 40%;
+    margin-top: 0;
     margin-left: 0%;
-    margin-left: 30%;
   }
 
   .button a {
