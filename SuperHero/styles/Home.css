@@ -1,153 +1,150 @@
 .header {
-    background-image: url("../imagens_atualizadas/spidermanheader.jpg");
-    height: 100vh;
+  background-image: url("../imagens_atualizadas/spidermanheader.jpg");
+  height: 100vh;
 }
 
 .quem-somos {
-    background-image: url("../imagens_atualizadas/thor_header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+  background-image: url("../imagens_atualizadas/thor_header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
 }
 
 .quem-somos span {
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    text-decoration: underline 4px solid white;
-    text-underline-position: under;
-    text-decoration-skip: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline 4px solid white;
+  text-underline-position: under;
+  text-decoration-skip: 1.25rem;
 }
 
 .quem-somos h2 {
-    right: 1.25rem;
-    color: white;
-    text-align: center;
-    align-items: center;
-    margin: 1.25rem 0 1.25rem 0;
+  right: 1.25rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin: 1.25rem 0 1.25rem 0;
 }
 
 .quem-somos p {
-    font-size: 1.5rem;
-    color: white;
-    margin-left: 55%;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    margin-right: 5%;
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 55%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-right: 5%;
 }
 
 .layout {
-    background-image: url("../imagens_atualizadas/bonecos.png");
-    background-repeat: no-repeat;
-    background-size: 60%;
-    height: 80vh;
+  background-image: url("../imagens_atualizadas/bonecos.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: 80vh;
 }
 
 .layout img {
-    display: none;
+  display: none;
 }
 
-.lorem {
-    text-align: left;
-    font-size: 1.5rem;
-    color: black;
-    padding-left: 57%;
-    margin-top: 2.5rem;
-    text-justify: auto;
+h2 + div {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: black;
+  padding-left: 57%;
+  margin: 2rem;
 }
 
 .button {
-    margin-top: 1.875rem;
-    width: auto;
-    margin-left: 57%;
+  margin-top: -1.25rem;
+  margin-left: 59%;
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    background-image: url("../imagens_atualizadas/spidermanheader_mobile.jpg");
+    height: 55vh;
+  }
 
-    .header {
-        background-image: url("../imagens_atualizadas/spidermanheader_mobile.jpg");
-        height: 55vh;
-    }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
+  .logo-home {
+    width: 7rem;
+  }
 
-    .logo-home {
-        width: 7rem;
-    }
+  .list {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.875rem;
+    margin-top: -5%;
+  }
 
-    .list {
-        display: inline-flex;
-        align-items: center;
-        gap: 1.875rem;
-        margin-top: -5%;
-    }
+  .title-header {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    margin-left: -2.5rem;
+    margin-bottom: -3rem;
+  }
 
-    .title-header {
-        width: 10rem;
-        height: 10rem;
-        position: absolute;
-        margin-left: -2.5rem;
-        margin-bottom: -3rem;
-    }
+  .quem-somos {
+    background-image: none;
+    background-color: #fe7467;
+    height: 70%;
+    padding-bottom: 3%;
+  }
 
-    .quem-somos {
-        background-image: none;
-        background-color: #fe7467;
-        height: 70%;
-        padding-bottom: 3%;
-    }
+  .quem-somos p {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+  }
 
-    .quem-somos p {
-        text-align: center;
-        font-size: 1rem;
-        color: white;
-        margin: 0;
-        padding: 1rem;
-    }
+  .layout span {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+  }
 
-    .layout span {
-        text-align: center;
-        font-weight: bold;
-        color: black;
-    }
+  .lorem {
+    padding-left: 0%;
+    text-align: center;
+    font-size: 1.4rem;
+  }
 
-    .lorem {
-        padding-left: 0%;
-        text-align: center;
-        font-size: 1.4rem;
-    }
+  .layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin-top: 2.5rem;
+  }
 
-    .layout {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-image: none;
-        background-repeat: no-repeat;
-        background-size: 60%;
-        margin-top: 2.5rem;
-    }
+  .layout img {
+    display: flex;
+    align-items: center;
+    padding: 10%;
+  }
 
-    .layout img {
-        display: flex;
-        align-items: center;
-        padding: 10%;
-    }
+  .button {
+    width: 40%;
+    margin-left: 0%;
+    margin-left: 30%;
+  }
 
-    .button {
-        width: 40%;
-        margin-left: 0%;
-        margin-left: 30%;
-    }
-
-    .button a {
-        font-size: 1rem;
-    }
-
+  .button a {
+    font-size: 1rem;
+  }
 }
