@@ -1,117 +1,100 @@
 .header {
-    background-image: url("../imagens_atualizadas/contatoheader.jpg");
+  background-image: url("../imagens_atualizadas/contatoheader.jpg");
 }
 
 .layout {
-    text-align: center;
-    color: black;
-    font-size: 1.3rem;
-    font-weight: bold;
-    height: 100vh;
+  text-align: center;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 100vh;
 }
 
 .layout p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .container p {
-    padding: 1.25rem;
+  padding: 1rem;
 }
 
 .container p input {
-    padding: 1.4375rem;
-    border-radius: 0.625rem;
-    border-color: rgba(128, 128, 128, 0.219);
+  padding: 1.4375rem;
+  border-radius: 0.625rem;
+  border-color: rgba(128, 128, 128, 0.219);
 }
 
 .formulario {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1.25rem;
-    gap: 0.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1.25rem;
 }
 
 .formulario textarea {
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
-    padding: 1.25rem;
-    resize: none;
-    border-radius: 0.625rem;
-    border-color: rgba(128, 128, 128, 0.219);
+  width: 400px;
+  height: 265px;
+  padding: 1.25rem;
+  resize: none;
+  border-radius: 0.625rem;
+  border-color: rgba(128, 128, 128, 0.219);
 }
 
 .button {
-    box-sizing:border-box;
-    width: 52.8rem;
-    margin-left: 0.938rem;
+  margin-left: 20px;
+  width: 625px;
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    background-image: url("../imagens_atualizadas/contatoheader_mobile.jpg");
+    height: 55vh;
+  }
 
-    .header {
-        background-image: url("../imagens_atualizadas/contatoheader_mobile.jpg");
-        height: 55vh;
-    }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
+  .logo-home {
+    width: 7rem;
+  }
 
-    .logo-home {
-        width: 7rem;
-    }
+  .list {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.875rem;
+    margin-top: -5%;
+  }
 
-    .list {
-        display: inline-flex;
-        align-items: center;
-        gap: 1.875rem;
-        margin-top: -5%;
-    }
+  .title-header {
+    display: none;
+  }
 
-    .title-header {
-        display: none;
-    }
+  .quem-somos {
+    background-size: cover;
+    width: 100%;
+  }
 
-    .quem-somos {
-        background-size: cover;
-        width: 100%;
-    }
+  .quem-somos p {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    padding: 2rem;
+  }
 
-    .quem-somos p {
-        text-align: center;
-        font-size: 1rem;
-        color: white;
-        margin: 0;
-        padding: 2rem;
-    }
+  .formulario textarea {
+    width: auto;
+    border-color: rgba(128, 128, 128, 0.219);
+  }
 
-    .container p input {
-        max-width: 20.3125rem;
-        border-radius: 0.625rem;
-        padding: 1.25rem;
-        border-color: rgba(128, 128, 128, 0.219);
-    }
-
-    .formulario textarea {
-        border-radius: 0.625rem;
-        box-sizing: border-box;
-        border-color: rgba(128, 128, 128, 0.219);
-    }
-
-    .button {
-        background-color: #fe7467;
-        border: none;
-        padding: 0.625rem;
-        border-radius: 1.25rem;
-        box-sizing: border-box;
-        max-width: 41vh;
-        margin-left: 0.125rem;
-    }
-
+  .button {
+    margin-left: 15px;
+    width: 420px;
+  }
 }
