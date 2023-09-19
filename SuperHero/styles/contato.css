@@ -7,50 +7,38 @@
   color: black;
   font-size: 1.3rem;
   font-weight: bold;
-  height: 100vh;
 }
 
-.layout p {
-  font-size: 1rem;
-}
-
-.container p {
-  padding: 1rem;
-}
-
-.container p input {
-  padding: 1.4375rem;
-  border-radius: 0.625rem;
-  border-color: rgba(128, 128, 128, 0.219);
-}
-
-.formulario {
+.container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1.25rem;
+  margin: 40px;
+  gap: 20px;
 }
 
-.formulario textarea {
-  width: 400px;
-  height: 265px;
-  padding: 1.25rem;
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
   resize: none;
-  border-radius: 0.625rem;
-  border-color: rgba(128, 128, 128, 0.219);
+  margin-bottom: 20px;
 }
 
 .button {
-  margin-left: 20px;
-  width: 625px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
     background-image: url("../imagens_atualizadas/contatoheader_mobile.jpg");
-    height: 55vh;
   }
 
   .navbar {
@@ -86,15 +74,5 @@
     color: white;
     margin: 0;
     padding: 2rem;
-  }
-
-  .formulario textarea {
-    width: auto;
-    border-color: rgba(128, 128, 128, 0.219);
-  }
-
-  .button {
-    margin-left: 15px;
-    width: 420px;
   }
 }
