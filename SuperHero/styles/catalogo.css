@@ -1,5 +1,6 @@
 .header {
     background-image: url("../imagens_atualizadas/captainmarvelheader.jpg");
+    height: 100vh;
 }
 
 .layout {
@@ -45,7 +46,7 @@
 
     .header {
         background-image: url("../imagens_atualizadas/captainmarvelheader_Mobile.jpg");
-        height: 55vh;
+
     }
 
     .logo-home {

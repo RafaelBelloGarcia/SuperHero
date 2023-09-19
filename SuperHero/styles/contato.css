@@ -1,5 +1,6 @@
 .header {
   background-image: url("../imagens_atualizadas/contatoheader.jpg");
+  height: 100vh;
 }
 
 .layout {
